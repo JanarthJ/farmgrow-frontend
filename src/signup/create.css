@@ -1,0 +1,91 @@
+.mainDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.userDiv{
+    background: hsla(208, 68%, 22%, 0.90);
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    margin: 2rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 95%;
+    height: auto;
+}
+.username{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    /* padding: 0.8rem; */
+    margin: 0.5rem 0 1.8rem 0;
+    color:aliceblue;
+}
+.username input{
+    width:"95%";
+}
+.inImgDiv{
+    margin-top: 20px;
+}
+.inImgDiv label{
+    color:aliceblue;
+}
+.dec label{
+    color:aliceblue;
+}
+div.required-field label::after { 
+    content: "*";
+    color: red;
+}
+
+.next {
+    background-color: hsl(147, 50%, 47%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2px;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.nextDis{
+    background-color: hsl(147, 50%, 47%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2px;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.next:hover {
+    background-color: hsl(201, 54%, 52%);
+    transition: 350ms ease-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.back {
+    background-color: hsl(201, 54%, 52%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2px;
+    padding: 0.8rem;
+    margin: 1rem 0;
+}
+
+.back:hover {
+    background-color: hsl(147, 50%, 47%);
+    transition: 350ms ease-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.signup{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
