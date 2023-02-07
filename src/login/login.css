@@ -1,0 +1,102 @@
+.mainDiv{
+    background: hsla(149, 77%, 71%, 0.5);
+    background-size: cover;
+    margin:auto;
+    padding-left: 40%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.inDiv{
+    background:hsla(136, 66%, 35%, 1);
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    margin: 2rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 95%;
+    height: auto;
+}
+.username{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    margin: 0.5rem 0 1.8rem 0;
+    color:aliceblue;
+}
+.username input{
+    height:30px;
+    border-radius: 3px;
+}
+
+.next {
+    background-color: hsl(147, 50%, 47%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2px;
+    padding: 0.8rem;
+    margin: 1rem 0;
+}
+
+.submit{
+    background-color: hsl(201, 54%, 52%);
+    height: 30px;
+    color:black;
+    font-weight: 600;
+    border: 1px solid ;
+    border-radius: 3px;
+    transition: 350ms ease-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: hsla(149, 77%, 71%, 0.5);
+    transition: 350ms ease-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.heading{
+    color: blueviolet;
+    font-size: 40px;
+}
+.tabl{
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.thea{
+    font-size: 26px;
+    background-color: brown;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+.thea th{
+    padding: 30px;
+}
+
+.tbod{
+    font-size: 22px;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+.trow{
+    background-color: coral;
+    height: 65px;
+}
+.trow td{
+    background-color: coral;
+    padding: 20px;
+}
+.backbtn{
+    margin-left: 50%;
+    margin-top: 20px;
+}
